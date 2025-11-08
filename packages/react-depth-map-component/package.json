@@ -1,0 +1,38 @@
+{
+    "name": "react-depth-map-component",
+    "version": "1.3.66",
+    "description": "React Component to implement depth maps",
+    "main": "./lib/ImageDepthMapComponent.js",
+    "author": "Giorgi Batiashvili  <giorgi.batiashvili@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/story-tools-studio/react-depth-map-component/issues"
+    },
+    "homepage": "https://github.com/story-tools-studio/react-depth-map-component#readme",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack --watch",
+        "release": "standard-version"
+    },
+    "typings": "index.d.ts",
+    "peerDependencies": {
+        "react": "^16.9.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/preset-react": "^7.10.4",
+        "babel-loader": "^8.0.0",
+        "path": "^0.12.7",
+        "react": "^16.13.1",
+        "react-device-detect": "latest",
+        "react-dom": "^16.13.1",
+        "standard-version": "^8.0.2",
+        "webpack": "^4.44.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "dependencies": {
+        "glslify-loader": "^2.0.0",
+        "raw-loader": "^4.0.1"
+    }
+}
