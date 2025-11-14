@@ -25,8 +25,8 @@ export default function Portrait({
         <ImageDepthMap
             originalImg={PORTRAIT_PATH}
             depthImg={DEPTH_MAP_PATH}
-            verticalThreshold={15}
-            horizontalThreshold={15}
+            verticalThreshold={10}
+            horizontalThreshold={10}
             respondTo="mouseMove"
             reverseMotion={undefined}
             className={undefined}
